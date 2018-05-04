@@ -1,1 +1,3 @@
-console.log('YAY!');
+const initializer = require('./dataGate.js');
+
+initializer();
