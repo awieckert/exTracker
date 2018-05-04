@@ -1,0 +1,34 @@
+{
+  "locations": [
+    {
+        "name": "Red Bicycle",
+        "address": "1200 5th Ave N, Nashville, TN 37208",
+        "image": "../img/redbike.jpg",
+        "time": "Afternoon"
+    },
+    {
+        "name": "Patterson House",
+        "address": "1711 Division St, Nashville, TN 37203",
+        "image": "../img/pattersonHouse.jpg",
+        "time": "After-Dark"
+    },
+    {
+        "name": "Tooties",
+        "address": "422 Broadway, Nashville, TN 37203",
+        "image": "../img/tooties.jpg",
+        "time": "After-Dark"
+    },
+    {
+        "name": "Von Elrod's",
+        "address": "1004 4th Ave N, Nashville, TN 37219",
+        "image": "../img/vonElrods.jpg",
+        "time": "Evening"
+    },
+    {
+        "name": "Fido",
+        "address": "1812 21st Ave S, Nashville, TN 37212",
+        "image": "../img/fido.jpg",
+        "time": "Morning"
+    }
+]
+}
