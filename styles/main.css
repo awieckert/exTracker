@@ -1,0 +1,22 @@
+#navbar-search {
+  padding: 10px 0;
+}
+
+/* #navbar-search div {
+  padding: 5px 0;
+} */
+
+.form-group {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 0px;
+}
+
+.btns {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.navbar-header {
+  padding-left: 15px;
+}
