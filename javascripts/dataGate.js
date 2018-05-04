@@ -1,12 +1,13 @@
 const xhr = require('./xhr.js');
 const data = require('./data.js');
+const printToDom = require('./dom.js');
 
 const exSuccess = (JSONdata) => {
   const exData = JSONdata.Ex;
   console.log(exData);
   data.setExData(exData);
   xhr.locationsXHR(locationSuccess, WTF);
-  // printEx();
+  printToDom.exPrinter();
 };
 
 const locationSuccess = (JSONdata) => {
