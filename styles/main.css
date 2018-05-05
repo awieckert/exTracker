@@ -1,9 +1,19 @@
+body {
+  padding-top: 90px;
+  background-image: url('../img/background.gif');
+  background-size: contain;
+}
+
 #navbar-search {
   padding: 10px 0;
 }
 
-/* #navbar-search div {
-  padding: 5px 0;
+/* #monkeybutt {
+  margin-top: 10px;
+} */
+
+/* .nav-bar-main {
+  margin-bottom: 40px;
 } */
 
 .form-group {
@@ -30,11 +40,22 @@
   position: fixed;
 } */
 
-/* .location {
-  height: 200px;
-} */
+.location {
+  opacity: 0.9;
+}
 
 .location img {
   height: 250px;
   width: 100%;
+}
+
+.navbar-brand {
+  padding: 0;
+  padding-left: 15px;
+}
+
+.navbar-brand img {
+  height: 100%;
+  width: 200px;
+  border-radius: 5px;
 }

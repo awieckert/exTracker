@@ -17,7 +17,6 @@ const searchFunction = (e) => {
 
 const filterTime = (e) => {
   const buttonValue = $(e.target).text();
-  console.log('buttonValue: ', buttonValue);
   $(`.location:not(:icontains(${buttonValue}))`).hide();
   $(`.location:icontains(${buttonValue})`).show();
 };
