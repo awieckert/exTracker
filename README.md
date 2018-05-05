@@ -4,10 +4,9 @@
 The goal of this exercise was to introduce us to using jQuery. The basic functionality of searching through items on the page and filtering on click are nothing new, however, doing so with jQuery was the challenge.
 
 # Screenshots
-Demo
+Demo <br>
 ![homepage](https://raw.githubusercontent.com/awieckert/exTracker/master/screenshots/demos.gif)
 
-Home Page
 
 # How to run
 1. Requires node.js
