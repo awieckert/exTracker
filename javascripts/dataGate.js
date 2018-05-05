@@ -14,7 +14,7 @@ const locationSuccess = (JSONdata) => {
   const locationData = JSONdata.locations;
   console.log('locationsXHR: ', locationData);
   data.setLocationData(locationData);
-  // printLocations();
+  printToDom.locationPrinter();
 };
 
 const WTF = () => {

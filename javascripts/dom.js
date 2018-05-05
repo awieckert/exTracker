@@ -30,21 +30,21 @@ const locationPrinter = () => {
   const locationData = data.getLocationData();
   let stringToPrint = '';
   $(locationData).each((i, location) => {
-    stringToPrint += `<div class="row">`;
-    stringToPrint +=   `<div class="col-sm-6 col-md-3">`;
+    stringToPrint +=   `<div class="col-sm-6 col-md-5 col-md-offset-1 location">`;
     stringToPrint +=     `<div class="thumbnail">`;
-    stringToPrint +=       `<img src="..." alt="...">`;
+    stringToPrint +=       `<img src="${location.image}" alt="Things'N Stuff">`;
     stringToPrint +=      `<div class="caption">`;
-    stringToPrint +=         `<h3>Thumbnail label</h3>`;
-    stringToPrint +=         `<p>...</p>`;
-    stringToPrint +=         `<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>`;
+    stringToPrint +=         `<h3>${location.name}</h3>`;
+    stringToPrint +=         `<p>Address: ${location.address}</p>`;
+    stringToPrint +=         `<p>The douche often frequents this spot in the ${location.time} hours.</p>`;
     stringToPrint +=       `</div>`;
     stringToPrint +=     `</div>`;
     stringToPrint +=   `</div>`;
-    stringToPrint += `</div>`;
   });
-}
+  printToDom(stringToPrint, '#location-container');
+};
 
 module.exports = {
   exPrinter,
+  locationPrinter,
 };

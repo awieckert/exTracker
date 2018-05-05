@@ -29,6 +29,12 @@
         "address": "1812 21st Ave S, Nashville, TN 37212",
         "image": "../img/fido.jpg",
         "time": "Morning"
-    }
+    },
+    {
+      "name": "Villager Tavern",
+      "address": "1719 21st Ave S, Nashville, TN 37212",
+      "image": "../img/villager.jpg",
+      "time": "After-Dark"
+  }
 ]
 }

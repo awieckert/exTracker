@@ -20,3 +20,16 @@
 .navbar-header {
   padding-left: 15px;
 }
+
+/* #location-container {
+  position: fixed;
+} */
+
+/* .location {
+  height: 200px;
+} */
+
+.location img {
+  height: 250px;
+  width: 100%;
+}
