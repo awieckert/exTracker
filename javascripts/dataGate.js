@@ -1,6 +1,7 @@
 const xhr = require('./xhr.js');
 const data = require('./data.js');
 const printToDom = require('./dom.js');
+const events = require('./events.js');
 
 const exSuccess = (JSONdata) => {
   const exData = JSONdata.Ex;
@@ -8,6 +9,7 @@ const exSuccess = (JSONdata) => {
   data.setExData(exData);
   xhr.locationsXHR(locationSuccess, WTF);
   printToDom.exPrinter();
+  events.addEvents();
 };
 
 const locationSuccess = (JSONdata) => {
