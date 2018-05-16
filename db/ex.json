@@ -1,9 +1,32 @@
 {
-    "Ex":
+    "Exs": [
     {
-        "name": "Monkey Butt",
-        "age": 25,
-        "image": "../img/evilex.gif",
-        "flaws": ["Likes Justin Beber", "Owns a Hummer", "Hates Cats", "Packer Fan", "Said NSS was dumb!"]
+      "name": "Monkey Butt",
+      "age": 25,
+      "image": "../img/evilex.gif",
+      "flaws": ["Likes Justin Beber", "Owns a Hummer", "Hates Cats", "Packer Fan", "Said NSS was dumb!"],
+      "locations": [1, 2, 5]
+    },
+    {
+      "name": "Monkey Fart",
+      "age": 34,
+      "image": "../img/evilex.gif",
+      "flaws": ["Likes Justin Beber", "Owns a Hummer", "Hates Cats", "Packer Fan", "Said NSS was dumb!"],
+      "locations": [3, 2, 4]
+    },
+    {
+      "name": "Butt Monkey",
+      "age": 29,
+      "image": "../img/evilex.gif",
+      "flaws": ["Likes Justin Beber", "Owns a Hummer", "Hates Cats", "Packer Fan", "Said NSS was dumb!"],
+      "locations": [2, 5, 6]
+    },
+    {
+      "name": "Fart Butt",
+      "age": 16,
+      "image": "../img/evilex.gif",
+      "flaws": ["Likes Justin Beber", "Owns a Hummer", "Hates Cats", "Packer Fan", "Said NSS was dumb!"],
+      "locations": [6, 1, 4]
     }
+  ]
 }
