@@ -7,6 +7,8 @@ The goal of this exercise was to introduce us to using jQuery. The basic functio
 Demo <br>
 ![homepage](https://raw.githubusercontent.com/awieckert/exTracker/master/screenshots/demos.gif)
 
+ExTracker Part 2 <br>
+![homepage](https://raw.githubusercontent.com/awieckert/exTracker/master/screenshots/ExTracker2.gif)
 
 # How to run
 1. Requires node.js
