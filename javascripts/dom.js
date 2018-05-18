@@ -30,6 +30,7 @@ const exPrinter = () => {
 
 const locationPrinter = () => {
   const locationData = data.getLocationData();
+  const exData = data.getExData();
   let stringToPrint = '';
   $(locationData).each((i, location) => {
     stringToPrint +=   `<div class="col-sm-6 col-md-5 col-md-offset-1 location">`;
@@ -38,7 +39,16 @@ const locationPrinter = () => {
     stringToPrint +=      `<div class="caption">`;
     stringToPrint +=         `<h3>${location.name}</h3>`;
     stringToPrint +=         `<p>Address: ${location.address}</p>`;
-    stringToPrint +=         `<p>The douche often frequents this spot in the ${location.time} hours.</p>`;
+    stringToPrint +=         `<p>Exs that frequent this spot: `;
+    exData.forEach ((ex) => {
+      ex.locations.forEach((loci) => {
+        if (loci === location.id) {
+          stringToPrint +=         `${ex.name}, `;
+        }
+      });
+    });
+    stringToPrint +=         `</p>`;
+    stringToPrint +=         `<p>The douches often frequents this spot in the ${location.time} hours.</p>`;
     stringToPrint +=       `</div>`;
     stringToPrint +=     `</div>`;
     stringToPrint +=   `</div>`;
