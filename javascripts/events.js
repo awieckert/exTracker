@@ -8,7 +8,6 @@ const dom = require('./dom.js');
 const getExsJSON = () => {
   return new Promise ((resolve, reject) => {
     $.get('../db/ex.json').done((data) => {
-      console.log('multiExData: ', data.Exs);
       resolve(data.Exs);
     }).fail((err) => {
       reject(`Oi got an err!`, err);
@@ -49,8 +48,6 @@ const exFilter = (e) => {
         }
       });
     });
-    // singleEx is an Object
-    // singleExLocations is and array of Objects
     dom.printExLocations(singleEx, singleExLocations);
   });
 };
@@ -60,6 +57,11 @@ const addEvents = () => {
   $('.btns').on('click', filterTime);
   $('.clear').on('click', clearFilters);
   $('.ex').on('click', exFilter);
+  $('body').on('click', '.locations-panel', function () {
+    dom.locationPrinter();
+    dom.exPrinter();
+    addEvents();
+  });
 };
 
 const searchFunction = (e) => {

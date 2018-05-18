@@ -59,3 +59,8 @@ body {
   width: 200px;
   border-radius: 5px;
 }
+
+.locations-panel {
+  background-color: rgb(184, 25, 25);
+  color: rgb(233, 138, 138);
+}
